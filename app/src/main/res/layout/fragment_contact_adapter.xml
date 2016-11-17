@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.proharvesting.clase1android.ContactAdapter">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:text="001"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewConsID" />
+
+        <TextView
+            android:text="Jose Juan Navarro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName" />
+    </LinearLayout>
+</FrameLayout>
